@@ -395,7 +395,7 @@
         ],
         "measures": [
           {
-            "name": "Sales Amount",
+            "name": "Sales Conflict Amount",
             "expression": "SUM('FactFinance'[Amount])"
           },
           {
