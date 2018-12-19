@@ -398,6 +398,10 @@
           {
             "name": "Sales Amount",
             "expression": "SUM('FactFinance'[Amount])"
+          },
+          {
+            "name": "Another Measure",
+            "expression": "SUM(FactInternetSales[DiscountAmount])"
           }
         ]
       },
